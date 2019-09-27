@@ -3,6 +3,9 @@ body{
     margin: 0;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.5em;
+    background: url(./background.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
 
 .container{
@@ -21,19 +24,20 @@ h2{
 input{
     margin-top: 50px;
     color: #ffffff;
+    background-image: linear-gradient(to right bottom, #642c90, #dc248c, #dc248c );
     font-size: 20px;
-    background: red;
     border-radius: 5px;
     padding: 16px 32px;
     border: none;
     cursor: pointer;
     transition: .5s;
     font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    
+    box-shadow: 0 8px 16px 0 rgba(100, 44, 144, 0.2), 0 6px 20px 0 rgba(220, 36, 140, 0.19);
 
    
 }
 input:hover{
-    color: red;
-    background: #ffffff;
-    border: 1px solid red; 
+    box-shadow:none;
 }
